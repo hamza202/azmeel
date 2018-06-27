@@ -1,0 +1,68 @@
+.dashboard-stat.color-1 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.2));
+    background-color: #64bc36;
+}
+.dashboard-stat {
+    display: inline-block;
+    padding: 0;
+    height: 160px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: .3s;
+    cursor: default;
+}
+.dashboard-stat-content {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    width: 55%;
+    transform: translateY(-50%);
+}
+.dashboard-stat-content h4 {
+    font-size: 42px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -1px;
+}
+.dashboard-stat-content span {
+    font-size: 18px;
+    margin-top: 4px;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+}
+@media (max-width: 1600px) {
+    .dashboard-stat .dashboard-stat-icon i {
+        font-size: 66px !important;
+    }
+}
+@media (max-width: 1366px) {
+    .dashboard-stat .dashboard-stat-icon i {
+        font-size: 50px !important;
+    }
+}
+.dashboard-stat-icon {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-40%);
+    opacity: .7;
+}
+.dashboard-stat.color-4 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1));
+    background-color: #f3103c;
+}
+.dashboard-stat.color-2 {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1));
+    background-color: #363841;
+}
+.dashboard-stat:hover {
+    transform: translateY(-4px);
+}
