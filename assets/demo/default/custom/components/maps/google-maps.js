@@ -6,21 +6,27 @@ var GoogleMapsDemo = {
             lng: 46.663893,
             title: "Lima",
             icon:'assets/green-marker.png',
-            details: {database_id: 42, author: "HPNeo"},
-            click: function (t) {
-                console.log && console.log(t), alert("You clicked in this marker")
-            }
+            details: {database_id: 42, author: "Hamza"},
+            infoWindow: {content: '<div class="map-span" style="color:#000">HTML Content!</div>'}
         }), t.addMarker({
-            lat: -12.042,
-            lng: -77.028333,
+            lat: 24.603662,
+            lng: 46.763893,
             title: "Marker with InfoWindow",
-            infoWindow: {content: '<span style="color:#000">HTML Content!</span>'}
+            icon:'assets/red-marker.png',
+            infoWindow: {content: '<div class="map-span" style="color:#000">HTML Content!</div>'}
         }), t.addMarker({
-            lat: -12.050,
-            lng: -77.0260,
+            lat: 24.803662,
+            lng: 46.763893,
+            icon:'assets/orange-marker.png',
             title: "Marker with InfoWindow",
-            infoWindow: {content: '<span style="color:#000">HTML Content!</span>'}
-        }),t.setZoom(12), function () {
+            infoWindow: {content: '<div class="map-span" style="color:#000">HTML Content!</div>'}
+        }),t.addMarker({
+            lat: 24.753662,
+            lng: 46.703893,
+            icon:'',
+            title: "Marker with InfoWindow",
+            infoWindow: {content: '<div  class="map-span" style="color:#000">Our Company</div>'}
+        }),t.setZoom(10), function () {
             var t = new GMaps({div: "#m_gmap_4", lat: -12.043333, lng: -77.028333});
             GMaps.geolocate({
                 success: function (e) {

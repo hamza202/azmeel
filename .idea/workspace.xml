@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bc3f14-c2a3-4394-8e78-63a5c3465af7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/left-menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quick_sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/default/base/style.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/base/style.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/js/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/green-marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/green-marker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/forms/widgets/dropzone.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud/forms/widgets/dropzone.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/left-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/left-menu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,54 +28,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="classification.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10047">
-              <caret line="591" selection-start-line="591" selection-end-line="591" />
+            <state relative-caret-position="1000">
+              <caret line="341" column="74" selection-start-line="341" selection-start-column="74" selection-end-line="341" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-maps.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js">
+      <file leaf-file-name="new-member.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="411">
+              <caret line="310" column="81" selection-start-line="310" selection-start-column="81" selection-end-line="310" selection-end-column="81" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#select#0;n#div#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gmaps.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/vendors/custom/gmaps/gmaps.js">
+      <file leaf-file-name="map.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret column="8216" selection-start-column="8216" selection-end-column="8216" />
+            <state relative-caret-position="-221">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vendors.bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js">
+      <file leaf-file-name="powers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/powers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15504">
-              <caret line="912" column="7" selection-start-line="912" selection-start-column="7" selection-end-line="912" selection-end-column="7" />
+            <state relative-caret-position="531">
+              <caret line="170" column="74" selection-start-line="170" selection-start-column="74" selection-end-line="170" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google-maps.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/maps/google-maps.html">
+      <file leaf-file-name="form-controls.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crud/forms/validation/form-controls.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61489">
-              <caret line="3617" column="89" selection-start-line="3617" selection-start-column="81" selection-end-line="3617" selection-end-column="89" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="86513">
+              <caret line="5089" column="117" selection-start-line="5089" selection-start-column="117" selection-end-line="5089" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-controls.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropzone.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crud/forms/widgets/dropzone.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74494">
+              <caret line="4382" column="105" selection-start-line="4382" selection-end-line="4383" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropzone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="104" selection-start-line="16" selection-start-column="104" selection-end-line="16" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -74,17 +115,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left-menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/left-menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="401">
+              <caret line="193" column="19" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -93,40 +125,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../../../assets</find>
-      <find>Don't have an account yet</find>
-      <find>m-input:</find>
-      <find>.m-link:hover</find>
-      <find>5f57c3</find>
-      <find>assets/app/media/img//logos/logo-2.png</find>
-      <find>m-login__head</find>
-      <find>m-nav-sticky</find>
-      <find>.m-login.m-login--1 .m-login__wrapper</find>
-      <find>m-menu__link-badge</find>
-      <find>Dashboard</find>
+      <find>border-radiu</find>
+      <find>E8504D</find>
+      <find>stack__item m-stack__item--fluid</find>
       <find>m_aside_left</find>
-      <find>m_aside_header_menu_mobile_toggle</find>
-      <find>m-content</find>
-      <find>.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav &gt; .m-menu__item.m-menu__item--active &gt; .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav &gt; .m-menu__item.m-menu__item--active &gt; .m-menu__link .m-menu__link-text {</find>
+      <find>m-aside-left  m-aside-left--skin-dark</find>
+      <find>m-aside-left--skin-dark</find>
+      <find>left-m</find>
       <find>footer</find>
-      <find>custom</find>
-      <find>.dashboard-stat-icon</find>
-      <find>Components</find>
-      <find>.dashboard-stat-content</find>
-      <find>Effective projects</find>
-      <find>../../assets</find>
-      <find>throw</find>
-      <find>body</find>
-      <find>m-portlet m-portlet--tab</find>
-      <find>m_gmap_1</find>
-      <find>m_gmap_3</find>
-      <find>919</find>
-      <find>zoom</find>
-      <find>m_gmap_</find>
+      <find>Powers</find>
+      <find>m-widget3__item</find>
+      <find>syst</find>
+      <find>quick_sidebar</find>
+      <find>Hawaii</find>
+      <find>select2</find>
+      <find>m_select2_3_modal</find>
+      <find>m_select2_1</find>
+      <find>Multi Select</find>
+      <find>Limiting Selections</find>
+      <find>select2-container select2</find>
+      <find>hours</find>
+      <find>m_select2_9</find>
+      <find>index.</find>
+      <find>File Type Validation</find>
+      <find>mDropzoneThree</find>
+      <find>Three</find>
+      <find>m-dropzone-three</find>
+      <find>validity</find>
+      <find>qui</find>
+      <find>.dropzone</find>
+      <find>fa fa fa-eye</find>
     </findStrings>
     <replaceStrings>
       <replace>079c38</replace>
       <replace>assets</replace>
+      <replace>fa fa-user</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,12 +171,26 @@
         <option value="$PROJECT_DIR$/login-2.html" />
         <option value="$PROJECT_DIR$/login-1.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/left-menu.php" />
         <option value="$PROJECT_DIR$/assets/demo/default/base/style.bundle.css" />
-        <option value="$PROJECT_DIR$/assets/custom.css" />
         <option value="$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/assets/app/js/dashboard.js" />
+        <option value="$PROJECT_DIR$/style.php" />
+        <option value="$PROJECT_DIR$/quick_sidebar.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/select2.js" />
+        <option value="$PROJECT_DIR$/left-menu.php" />
+        <option value="$PROJECT_DIR$/crud/forms/widgets/dropzone.html" />
+        <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js" />
+        <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js" />
+        <option value="$PROJECT_DIR$/javascript.php" />
+        <option value="$PROJECT_DIR$/assets/custom.css" />
+        <option value="$PROJECT_DIR$/new-member.php" />
+        <option value="$PROJECT_DIR$/map.php" />
+        <option value="$PROJECT_DIR$/powers.php" />
+        <option value="$PROJECT_DIR$/classification.php" />
       </list>
     </option>
   </component>
@@ -157,10 +204,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-36" />
-    <option name="y" value="153" />
+    <option name="x" value="-202" />
+    <option name="y" value="181" />
     <option name="width" value="915" />
-    <option name="height" value="735" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,26 +227,16 @@
               <item name="azmeel" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="azmeel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azmeel" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azmeel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azmeel" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dgo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -229,25 +265,30 @@
       <workItem from="1529931858933" duration="2836000" />
       <workItem from="1530001316651" duration="15502000" />
       <workItem from="1530047102528" duration="25000" />
+      <workItem from="1530096002417" duration="9586000" />
+      <workItem from="1530344692617" duration="18946000" />
+      <workItem from="1530395041535" duration="18000" />
+      <workItem from="1530426722943" duration="4522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18363000" />
+    <option name="totallyTimeSpent" value="51435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,6 +307,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/left-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10047">
@@ -291,9 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61489">
           <caret line="3617" column="89" selection-start-line="3617" selection-start-column="81" selection-end-line="3617" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -315,10 +395,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10047">
+          <caret line="591" selection-start-line="591" selection-end-line="591" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendors/custom/gmaps/gmaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret column="8216" selection-start-column="8216" selection-end-column="8216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15504">
+          <caret line="912" column="7" selection-start-line="912" selection-start-column="7" selection-end-line="912" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/maps/google-maps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61489">
+          <caret line="3617" column="89" selection-start-line="3617" selection-start-column="81" selection-end-line="3617" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/left-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -337,49 +462,6 @@
     <entry file="file://$PROJECT_DIR$/login-2.html" />
     <entry file="file://$PROJECT_DIR$/login-1.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/assets/app/js/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/maps/google-maps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61489">
-          <caret line="3617" column="89" selection-start-line="3617" selection-start-column="81" selection-end-line="3617" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="6456" column="1" selection-start-line="6456" selection-start-column="1" selection-end-line="6456" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15504">
-          <caret line="912" column="7" selection-start-line="912" selection-start-column="7" selection-end-line="912" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendors/custom/gmaps/gmaps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -387,21 +469,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/components/maps/google-maps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10047">
-          <caret line="591" selection-start-line="591" selection-end-line="591" />
+        <state relative-caret-position="-391">
+          <caret line="3617" column="89" selection-start-line="3617" selection-start-column="81" selection-end-line="3617" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="459">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="470" column="9" lean-forward="true" selection-start-line="470" selection-start-column="9" selection-end-line="470" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1157" column="5" selection-start-line="1157" selection-start-column="5" selection-end-line="1157" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/js/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quick_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="605" selection-start-line="605" selection-end-line="605" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud/forms/widgets/select2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="4484" column="95" selection-start-line="4484" selection-end-line="4654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4080">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/select2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="42" column="65" lean-forward="true" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/left-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud/forms/widgets/dropzone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74494">
+          <caret line="4382" column="105" selection-start-line="4382" selection-end-line="4383" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23835" column="16" selection-start-line="23835" selection-start-column="16" selection-end-line="23835" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud/forms/validation/form-controls.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86513">
+          <caret line="5089" column="117" selection-start-line="5089" selection-start-column="117" selection-end-line="5089" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="104" selection-start-line="16" selection-start-column="104" selection-end-line="16" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="193" column="19" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="310" column="81" selection-start-line="310" selection-start-column="81" selection-end-line="310" selection-end-column="81" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#select#0;n#div#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/powers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="170" column="74" selection-start-line="170" selection-start-column="74" selection-end-line="170" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="341" column="74" selection-start-line="341" selection-start-column="74" selection-end-line="341" selection-end-column="74" />
         </state>
       </provider>
     </entry>
