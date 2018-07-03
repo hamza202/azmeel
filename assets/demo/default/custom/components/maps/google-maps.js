@@ -3,7 +3,7 @@ var GoogleMapsDemo = {
         var t;
         (t = new GMaps({div: "#m_gmap_3", lat: 24.703662, lng: 46.663893})).addMarker({
             lat: 24.703662,
-            lng: 46.663893,
+            a: 46.663893,
             title: "Lima",
             icon:'assets/green-marker.png',
             details: {database_id: 42, author: "Hamza"},

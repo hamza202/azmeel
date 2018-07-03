@@ -39,7 +39,7 @@
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
                         <h3 class="m-subheader__title ">
-                            New Member
+                            Our Map
                         </h3>
                     </div>
                 </div>
@@ -56,265 +56,148 @@
                                             <i class="la la-gear"></i>
                                         </span>
                                         <h3 class="m-portlet__head-text">
-                                            Add New Member
+                                            Add Location
                                         </h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="m-portlet__body">
-                                <form action="#">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group m-form__group row">
-                                                    <div class=" col-sm-12">
-                                                        <div class="m-dropzone dropzone m-dropzone--brand"
-                                                             action="inc/api/dropzone/upload.php"
-                                                             id="m-dropzone-three">
-                                                            <div class="m-dropzone__msg dz-message needsclick">
-                                                                <h3 class="m-dropzone__msg-title">
-                                                                    personal picture
-                                                                </h3>
-                                                                <span class="m-dropzone__msg-desc">
-                                                                       Drop img here or click to upload.<br> Only image is allowed for upload.
+                                <div class="add-power">
+                                    <form action="#">
+                                        <div class="row text-center ">
+                                            <div class="col-sm-8 text-sm-left">
+
+                                                <a href="#"
+                                                   class="btn btn-brand  m-btn--air m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill"
+                                                   data-toggle="modal" data-target="#m_modal_1">
+                                                    <i class="fas fa-plus"></i>
+                                                </a>
+                                                <h4 class="head-4">Add New Location</h4>
+                                                <!--begin::Modal-->
+                                                <div class="modal fade" id="m_modal_1" tabindex="-1" role="dialog"
+                                                     aria-labelledby="exampleModalLabel"
+                                                     aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">
+                                                                    Information of location
+                                                                </h5>
+                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                        aria-label="Close">
+                                                                    <span aria-hidden="true">
+                                                                        &times;
                                                                     </span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+
+                                                                        <div class="form-group m-form__group">
+                                                                            <label>
+                                                                                Lat:
+                                                                            </label>
+                                                                            <div class=" m-input-icon--left">
+                                                                                <input type="text"
+                                                                                       class="form-control m-input"
+                                                                                       placeholder="lat">
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+
+                                                                        <div class="form-group m-form__group">
+                                                                            <label>
+                                                                                Lng:
+                                                                            </label>
+                                                                            <div class=" m-input-icon--left">
+                                                                                <input type="text"
+                                                                                       class="form-control m-input"
+                                                                                       placeholder="lng">
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+
+                                                                        <div class="form-group m-form__group">
+                                                                            <label>
+                                                                                Description:
+                                                                            </label>
+                                                                            <div class=" m-input-icon--left">
+                                                                                <input type="text"
+                                                                                       class="form-control m-input"
+                                                                                       placeholder="Description">
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <div class="m-form__group form-group marker-select">
+                                                                            <label for="">
+                                                                                Marker
+                                                                            </label>
+                                                                            <div class="m-radio-inline">
+                                                                                <label class="m-radio m-radio--solid m-radio--brand">
+                                                                                    <input type="radio" name="example_3"
+                                                                                           value="1">
+                                                                                    <img src="assets/green-marker.png" alt="">
+                                                                                    <span></span>
+                                                                                </label>
+                                                                                <label class="m-radio m-radio--solid m-radio--brand">
+                                                                                    <input type="radio" name="example_3"
+                                                                                           value="2">
+                                                                                    <img src="assets/orange-marker.png" alt="">
+                                                                                    <span></span>
+                                                                                </label>
+                                                                                <label class="m-radio m-radio--solid m-radio--brand">
+                                                                                    <input type="radio" name="example_3"
+                                                                                           value="3">
+                                                                                    <img src="assets/red-marker.png" alt="">
+                                                                                    <span></span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                        data-dismiss="modal">
+                                                                    Close
+                                                                </button>
+                                                                <button href="#"
+                                                                        class="btn btn-outline-brand m-btn m-btn--icon">
+                                                                    <span>
+                                                                        <i class="fas fa-plus"></i>
+                                                                        <span>
+                                                                            Add
+                                                                        </span>
+                                                                    </span>
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <!--end::Modal-->
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group m-form__group">
-                                                    <label for="Name">
-                                                        Name
-                                                    </label>
-                                                    <input type="text" class="form-control m-input" id="Name"
-                                                           aria-describedby="Name" placeholder="Name">
-                                                </div>
-                                                <div class="form-group m-form__group">
-                                                    <label for="exampleInputEmail1">
-                                                        Email address
-                                                    </label>
-                                                    <input type="email" class="form-control m-input"
-                                                           id="exampleInputEmail1" aria-describedby="emailHelp"
-                                                           placeholder="Enter email">
-                                                </div>
-                                                <div class="form-group m-form__group">
-                                                    <label for="Functional_number">
-                                                        Functional number
-                                                    </label>
-                                                    <input type="text" class="form-control m-input"
-                                                           id="Functional_number"
-                                                           aria-describedby="Functional number"
-                                                           placeholder="Functional number">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group m-form__group">
-                                                    <label for="m_select2_9">
-                                                        Choose the powers
-                                                    </label>
-                                                    <select class="form-control m-select2" id="m_select2_9"
-                                                            name="param" multiple>
-                                                        <option></option>
-                                                        <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                            <option value="AK">
-                                                                Alaska
-                                                            </option>
-                                                            <option value="HI">
-                                                                Hawaii
-                                                            </option>
-                                                        </optgroup>
-                                                        <optgroup label="Pacific Time Zone">
-                                                            <option value="CA">
-                                                                California
-                                                            </option>
-                                                            <option value="NV" selected>
-                                                                Nevada
-                                                            </option>
-                                                            <option value="OR">
-                                                                Oregon
-                                                            </option>
-                                                            <option value="WA">
-                                                                Washington
-                                                            </option>
-                                                        </optgroup>
-                                                        <optgroup label="Mountain Time Zone">
-                                                            <option value="AZ">
-                                                                Arizona
-                                                            </option>
-                                                            <option value="CO">
-                                                                Colorado
-                                                            </option>
-                                                            <option value="ID">
-                                                                Idaho
-                                                            </option>
-                                                            <option value="MT">
-                                                                Montana
-                                                            </option>
-                                                            <option value="NE">
-                                                                Nebraska
-                                                            </option>
-                                                            <option value="NM">
-                                                                New Mexico
-                                                            </option>
-                                                            <option value="ND">
-                                                                North Dakota
-                                                            </option>
-                                                            <option value="UT">
-                                                                Utah
-                                                            </option>
-                                                            <option value="WY">
-                                                                Wyoming
-                                                            </option>
-                                                        </optgroup>
-                                                        <optgroup label="Central Time Zone">
-                                                            <option value="AL">
-                                                                Alabama
-                                                            </option>
-                                                            <option value="AR">
-                                                                Arkansas
-                                                            </option>
-                                                            <option value="IL">
-                                                                Illinois
-                                                            </option>
-                                                            <option value="IA">
-                                                                Iowa
-                                                            </option>
-                                                            <option value="KS">
-                                                                Kansas
-                                                            </option>
-                                                            <option value="KY">
-                                                                Kentucky
-                                                            </option>
-                                                            <option value="LA">
-                                                                Louisiana
-                                                            </option>
-                                                            <option value="MN">
-                                                                Minnesota
-                                                            </option>
-                                                            <option value="MS">
-                                                                Mississippi
-                                                            </option>
-                                                            <option value="MO">
-                                                                Missouri
-                                                            </option>
-                                                            <option value="OK">
-                                                                Oklahoma
-                                                            </option>
-                                                            <option value="SD">
-                                                                South Dakota
-                                                            </option>
-                                                            <option value="TX">
-                                                                Texas
-                                                            </option>
-                                                            <option value="TN">
-                                                                Tennessee
-                                                            </option>
-                                                            <option value="WI">
-                                                                Wisconsin
-                                                            </option>
-                                                        </optgroup>
-                                                        <optgroup label="Eastern Time Zone">
-                                                            <option value="CT">
-                                                                Connecticut
-                                                            </option>
-                                                            <option value="DE">
-                                                                Delaware
-                                                            </option>
-                                                            <option value="FL">
-                                                                Florida
-                                                            </option>
-                                                            <option value="GA">
-                                                                Georgia
-                                                            </option>
-                                                            <option value="IN">
-                                                                Indiana
-                                                            </option>
-                                                            <option value="ME">
-                                                                Maine
-                                                            </option>
-                                                            <option value="MD">
-                                                                Maryland
-                                                            </option>
-                                                            <option value="MA">
-                                                                Massachusetts
-                                                            </option>
-                                                            <option value="MI">
-                                                                Michigan
-                                                            </option>
-                                                            <option value="NH">
-                                                                New Hampshire
-                                                            </option>
-                                                            <option value="NJ">
-                                                                New Jersey
-                                                            </option>
-                                                            <option value="NY">
-                                                                New York
-                                                            </option>
-                                                            <option value="NC">
-                                                                North Carolina
-                                                            </option>
-                                                            <option value="OH">
-                                                                Ohio
-                                                            </option>
-                                                            <option value="PA">
-                                                                Pennsylvania
-                                                            </option>
-                                                            <option value="RI">
-                                                                Rhode Island
-                                                            </option>
-                                                            <option value="SC">
-                                                                South Carolina
-                                                            </option>
-                                                            <option value="VT">
-                                                                Vermont
-                                                            </option>
-                                                            <option value="VA">
-                                                                Virginia
-                                                            </option>
-                                                            <option value="WV">
-                                                                West Virginia
-                                                            </option>
-                                                        </optgroup>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group m-form__group">
-                                                    <label for="Phone_Number">
-                                                        Phone Number
-                                                    </label>
-                                                    <input type="text" class="form-control m-input" id="Phone_Number"
-                                                           aria-describedby="Phone_Number" placeholder="Phone Number">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group m-form__group">
-                                                    <label for="Password1">
-                                                        Password
-                                                    </label>
-                                                    <input type="password" class="form-control" id="Password1"
-                                                           placeholder="Password">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group m-form__group">
-                                                    <label for="Password2">
-                                                        Confirm password
-                                                    </label>
-                                                    <input type="password" class="form-control" id="Password2"
-                                                           placeholder="Confirm password">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <button type="submit" class="btn  m-btn--air btn-outline-brand m-btn m-btn--custom">
-                                                    Submit
+                                            <div class="col-sm-4 mt-3 mt-sm-0 text-sm-right">
+                                                <button type="submit" class="btn btn-success">
+                                                    Save
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
+                                <div class="power-body">
+                                    <div id="m_gmap_3" style="height:500px;"></div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>
-        Azmeel | Home
+        Azmeel | Project Sections
     </title>
    <?php
    include "style.php"
@@ -39,7 +39,7 @@
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
                         <h3 class="m-subheader__title ">
-                            Powers
+                            Project Sections
                         </h3>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                                             <i class="la la-gear"></i>
                                         </span>
                                         <h3 class="m-portlet__head-text">
-                                            Add Powers
+                                             Project Sections
                                         </h3>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                                    data-toggle="modal" data-target="#m_modal_1">
                                                     <i class="fas fa-plus"></i>
                                                 </a>
-                                                <h4 class="head-4">Add new validity</h4>
+                                                <h4 class="head-4">Add new Project Section</h4>
                                                 <!--begin::Modal-->
                                                 <div class="modal fade" id="m_modal_1" tabindex="-1" role="dialog"
                                                      aria-labelledby="exampleModalLabel"
@@ -81,7 +81,7 @@
                                                         <div class="modal-content">
                                                             <div class="modal-header">
                                                                 <h5 class="modal-title" id="exampleModalLabel">
-                                                                    Add new validity
+                                                                    Add new Project Section
                                                                 </h5>
                                                                 <button type="button" class="close" data-dismiss="modal"
                                                                         aria-label="Close">
@@ -93,11 +93,11 @@
                                                             <div class="modal-body">
                                                                 <div class="form-group m-form__group">
                                                                     <label>
-                                                                        Name of the validity
+                                                                        Name of project Section
                                                                     </label>
                                                                     <div class=" m-input-icon--left">
                                                                         <input type="text" class="form-control m-input"
-                                                                               placeholder="validity">
+                                                                               placeholder="Project Section">
 
                                                                     </div>
                                                                 </div>
@@ -136,9 +136,9 @@
                                             <a href="#" class="btn btn-outline-brand m-btn m-btn--icon"
                                                data-target="#m_scrollable_modal_1" data-toggle="modal">
                                                 <span>
-                                                    <i class="fa fa-user"><b class="validity-view">25</b></i>
+                                                    <i class="fas fa-project-diagram"><b class="validity-view">25</b></i>
                                                     <span>
-                                                        validity
+                                                        Project Section Name
                                                     </span>
                                                 </span>
                                             </a>
@@ -147,9 +147,9 @@
                                             <a href="#" class="btn btn-outline-brand m-btn m-btn--icon"
                                                data-target="#m_scrollable_modal_1" data-toggle="modal">
                                                 <span>
-                                                    <i class="fa fa-user"><b class="validity-view">25</b></i>
+                                                    <i class="fas fa-project-diagram"><b class="validity-view">25</b></i>
                                                     <span>
-                                                        validity
+                                                        Project Section Name
                                                     </span>
                                                 </span>
                                             </a>
@@ -157,9 +157,9 @@
                                             <a href="#" class="btn btn-outline-brand m-btn m-btn--icon"
                                                data-target="#m_scrollable_modal_1" data-toggle="modal">
                                                 <span>
-                                                    <i class="fa fa-user"><b class="validity-view">25</b></i>
+                                                    <i class="fas fa-project-diagram"><b class="validity-view">25</b></i>
                                                     <span>
-                                                        validity
+                                                        Project Section Name
                                                     </span>
                                                 </span>
                                             </a>
@@ -168,9 +168,9 @@
                                             <a href="#" class="btn btn-outline-brand m-btn m-btn--icon"
                                                data-target="#m_scrollable_modal_1" data-toggle="modal">
                                                 <span>
-                                                    <i class="fa fa-user"><b class="validity-view">25</b></i>
+                                                    <i class="fas fa-project-diagram"><b class="validity-view">25</b></i>
                                                     <span>
-                                                        validity
+                                                        Project Section Name
                                                     </span>
                                                 </span>
                                             </a>
@@ -185,7 +185,7 @@
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <h5 class="modal-title" id="exampleModalLabel">
-                                                        validity
+                                                        Projects
                                                     </h5>
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-label="Close">
@@ -199,142 +199,41 @@
                                                          data-scrollable="true" data-height="200">
                                                         <div class="m-widget3">
                                                             <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
+                                                                <a href="#" class="m-widget3__header">
                                                                     <div class="m-widget3__info">
                                                                 <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
+                                                                    Project Name
                                                                 </span>
                                                                     </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
+                                                                </a>
                                                             </div>
                                                             <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
+                                                                <a href="#" class="m-widget3__header">
                                                                     <div class="m-widget3__info">
                                                                 <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
+                                                                    Project Name
                                                                 </span>
                                                                     </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
+                                                                </a>
                                                             </div>
                                                             <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
+                                                                <a href="#" class="m-widget3__header">
                                                                     <div class="m-widget3__info">
                                                                 <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
+                                                                    Project Name
                                                                 </span>
                                                                     </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
+                                                                </a>
                                                             </div>
                                                             <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
+                                                                <a href="#" class="m-widget3__header">
                                                                     <div class="m-widget3__info">
                                                                 <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
+                                                                    Project Name
                                                                 </span>
                                                                     </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
+                                                                </a>
                                                             </div>
-                                                            <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
-                                                                    <div class="m-widget3__info">
-                                                                <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
-                                                                </span>
-                                                                    </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
-                                                                    <div class="m-widget3__info">
-                                                                <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
-                                                                </span>
-                                                                    </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
-                                                                    <div class="m-widget3__info">
-                                                                <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
-                                                                </span>
-                                                                    </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="m-widget3__item">
-                                                                <div class="m-widget3__header">
-                                                                    <div class="m-widget3__user-img">
-                                                                        <img class="m-widget3__img"
-                                                                             src="assets/app/media/img/users/user4.jpg"
-                                                                             alt="">
-                                                                    </div>
-                                                                    <div class="m-widget3__info">
-                                                                <span class="m-widget3__username">
-                                                                    Hamza Abo Aitah
-                                                                </span>
-                                                                    </div>
-                                                                    <a href="#" class="m-widget3__status m--font-info">
-                                                                        <i class="fab fa-facebook-messenger"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
                                                         </div>
                                                     </div>
                                                 </div>

@@ -15,4 +15,6 @@
 <script src="assets/app/js/dashboard.js" type="text/javascript"></script>
 <script src="assets/demo/default/custom/crud/forms/widgets/select2.js" type="text/javascript"></script>
 <script src="assets/demo/default/custom/crud/forms/widgets/dropzone.js" type="text/javascript"></script>
+<script src="assets/Chart.bundle.min.js"></script>
+
 <!--end::Page Snippets -->
