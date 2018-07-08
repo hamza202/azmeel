@@ -9,6 +9,8 @@
 <script src="assets/demo/default/custom/components/maps/google-maps.js" type="text/javascript"></script>
 <!--end::Base Scripts -->
 <!--begin::Page Vendors -->
+<!--<script src="assets/vendors/custom/jquery-ui/jquery-ui.bundle.js" type="text/javascript"></script>-->
+
 <script src="assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
 <!--end::Page Vendors -->
 <!--begin::Page Snippets -->

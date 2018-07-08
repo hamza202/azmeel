@@ -300,3 +300,95 @@
 .employee-group a.btn-outline-brand{
     width: 100%;
 }
+.year-select{
+    display: inline-block;
+    width: auto;
+}
+.gry-bg{
+    background: #f9f9f9;
+}
+#m_modal_6  .m-widget3 .m-widget3__item .m-widget3__username{
+    color: #11a541;
+}
+.file-details-table{
+    text-align: center;
+}
+.file-details-table td{
+    vertical-align: middle !important;
+}
+.m-widget3__info i.fa-envelope{
+    color: #7b7979;
+}
+.m-widget3__info i.fa-facebook{
+    color: #3b5999;
+}
+.m-widget3-social a{
+    padding-right: 10px;
+}
+.m-widget3 .col-lg-4{
+    border-bottom: 1px dashed #ebedf2;
+    margin-top: 20px;
+}
+.m-widget3 .m-widget3__item .m-widget3__header .m-widget3__info .m-widget3__time{
+    font-size: .95rem;
+}
+.m-widget2 .m-widget2__item .m-widget2__actions{
+    padding-right: 10px;
+}
+.m-widget2 .m-widget2__item:before{
+    left: 0;
+}
+.m-widget2 .m-widget2__item .m-widget2__checkbox{
+    padding-left: 1.2rem;
+}
+.m-portlet .m-portlet__head .m-portlet__head-caption{
+    width: 100%;
+}
+.m-dropdown__content .m-nav li:nth-child(3) a:hover .m-nav__link-icon,
+.m-dropdown__content .m-nav li:nth-child(3) a:hover .m-nav__link-text{
+    color: #f4516c !important;
+}
+.m-dropdown__content .m-nav li:nth-child(2) a:hover .m-nav__link-icon,
+.m-dropdown__content .m-nav li:nth-child(2) a:hover .m-nav__link-text{
+    color: #36a3f7 !important;
+}
+.view-project-section .progress-pie-chart{
+    margin: 0 auto 0;
+}
+.view-project-section .progress-pie-chart {
+    width: 160px;
+    height: 160px;
+}
+.view-project-section .ppc-progress {
+    left: calc(50% - 81px);
+    top: calc(50% - 81px);
+    width: 160px;
+    height: 160px;
+}
+.view-project-section .ppc-progress .ppc-progress-fill {
+    left: calc(50% - 80px);
+    top: calc(50% - 80px);
+    width: 160px;
+    height: 160px;
+}
+.view-project-section  .ppc-percents {
+    left: calc(50% - 143.913043px / 2);
+    top: calc(50% - 143.913043px / 2);
+    width: 143.913043px;
+    height: 143.913043px;
+}
+@media (min-width: 992px) {
+    .view-project-section .m-portlet__body .col-lg-4:not(:last-child){
+        border-right: 1px dashed #ebedf2;
+    }
+}
+.project-manager-img{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.project-manager-container{
+    text-align: center;
+}
