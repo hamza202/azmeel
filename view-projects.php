@@ -71,7 +71,7 @@
                                     <div class="row">
                                         <div class="col-lg-4">
                                             <div class="progress-pie-chart pie-chart"
-                                                 data-percent="5">
+                                                 data-percent="30">
                                                 <div class="ppc-progress">
                                                     <div class="ppc-progress-fill ppc-progress-fill1"
                                                          id=""></div>
@@ -124,8 +124,8 @@
                                 <div class="m-portlet__body">
                                     <div class="row">
                                         <div class="col-lg-4">
-                                            <div class="progress-pie-chart pie-chart"
-                                                 data-percent="5">
+                                            <div class="progress-pie-chart pie-chart2"
+                                                 data-percent="98%">
                                                 <div class="ppc-progress">
                                                     <div class="ppc-progress-fill ppc-progress-fill1"
                                                          id=""></div>
@@ -194,18 +194,18 @@ include "javascript.php"
         if (percent > 50) {
             $ppc.addClass('gt-50');
         }
-        $('.ppc-progress-fill1').css('transform', 'rotate(' + deg + 'deg)');
-        $('.ppc-percents1 span').html(percent + '%');
+        $ppc.find(".ppc-progress-fill1").css('transform', 'rotate(' + deg + 'deg)');
+        $ppc.find('.ppc-percents1 span').html(percent + '%');
     });
     $(function () {
-        var $ppc = $('#pie-chart2'),
-            percent = parseInt($ppc.data('percent1')),
+        var $ppc = $('.pie-chart2'),
+            percent = parseInt($ppc.data('percent')),
             deg = 360 * percent / 100;
         if (percent > 50) {
             $ppc.addClass('gt-50');
         }
-        $('#ppc-progress-fill2').css('transform', 'rotate(' + deg + 'deg)');
-        $('#ppc-percents2 span').html(percent + '%');
+        $ppc.find(".ppc-progress-fill1").css('transform', 'rotate(' + deg + 'deg)');
+        $ppc.find('.ppc-percents1 span').html(percent + '%');
     });
 </script>
 <!--end::Page Snippets -->

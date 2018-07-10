@@ -392,3 +392,65 @@
 .project-manager-container{
     text-align: center;
 }
+.countdown-container {
+    margin: 0 auto;
+    display: table;
+    white-space: nowrap;
+}
+
+.countdown {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: table-row;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.countdown-item {
+    display: table-cell;
+    width: 25%;
+    padding: 0 2px;
+}
+
+.countdown-value {
+    display: block;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.2));
+    background-color: #64bc36;
+    color: white;
+    font-weight: 800;
+    font-size: 36px;
+    padding: 20px 10px;
+}
+.approval-table td,.approval-table th{
+    vertical-align: middle;
+}
+@media (min-width: 540px) {
+    .countdown-value {
+        font-size: 48px;
+        padding: 40px 20px;
+        min-width: 100px;
+    }
+}
+
+.countdown-unit {
+    display: block;
+    text-transform: uppercase;
+    color: #64bc36;
+    background: #efefef;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+}
+.btn.btn-warning:hover:not(:disabled){
+    color: #fff !important;
+}
+
+@media (min-width: 540px) {
+    .countdown-unit {
+        font-size: 14px;
+        padding: 20px;
+    }
+}

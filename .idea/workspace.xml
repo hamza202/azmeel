@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="93bc3f14-c2a3-4394-8e78-63a5c3465af7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-project.php" beforeDir="false" afterPath="$PROJECT_DIR$/add-project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/left-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/left-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.php" beforeDir="false" afterPath="$PROJECT_DIR$/style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/view-projects.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,29 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add-project.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add-project.php">
+      <file leaf-file-name="form-repeater.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crud/forms/widgets/form-repeater.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78353">
-              <caret line="4609" selection-start-line="4609" selection-end-line="4609" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view-projects.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view-projects.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="127" column="64" selection-start-line="127" selection-start-column="63" selection-end-line="127" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vendors.bundle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/vendors/base/vendors.bundle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5695">
-              <caret line="49" column="6204" selection-start-line="49" selection-start-column="6204" selection-end-line="49" selection-end-column="6204" />
+            <state relative-caret-position="80818">
+              <caret line="4754" column="71" selection-start-line="4754" selection-end-line="4755" />
             </state>
           </provider>
         </entry>
@@ -49,8 +32,35 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3689">
-              <caret line="217" column="23" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
+            <state relative-caret-position="7650">
+              <caret line="450" column="27" selection-start-line="450" selection-start-column="27" selection-end-line="450" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left-menu.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/left-menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="approvals.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/approvals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6494">
+              <caret line="382" column="58" selection-start-line="382" selection-start-column="58" selection-end-line="382" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -59,13 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data-dismiss=&quot;modal</find>
-      <find>RecordID</find>
-      <find>m_table_1</find>
-      <find>tb</find>
-      <find>tabl</find>
-      <find>style</find>
-      <find>date</find>
       <find>tfoo</find>
       <find>DatatablesSearchOptionsAdvancedSearch</find>
       <find>ser</find>
@@ -87,8 +90,15 @@
       <find>m-portlet__body</find>
       <find>m-portlet__head-caption</find>
       <find>ppc-progress-fill1</find>
-      <find>pie-chart</find>
       <find>ppc-percents1</find>
+      <find>pie-chart</find>
+      <find>percent</find>
+      <find>.countdown-value</find>
+      <find>m_gmap_3</find>
+      <find>.view-project-section .ppc-progress .ppc-progress-fill</find>
+      <find>d-flex align-items-center</find>
+      <find>Select date and time</find>
+      <find>Staff required to attend</find>
     </findStrings>
     <replaceStrings>
       <replace>079c38</replace>
@@ -111,18 +121,14 @@
         <option value="$PROJECT_DIR$/login-1.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/demo/default/base/style.bundle.css" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/menu.php" />
         <option value="$PROJECT_DIR$/assets/app/js/dashboard.js" />
         <option value="$PROJECT_DIR$/quick_sidebar.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/crud/forms/widgets/dropzone.html" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/dropzone.js" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js" />
-        <option value="$PROJECT_DIR$/map.php" />
         <option value="$PROJECT_DIR$/new-member.php" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/forms/widgets/select2.js" />
-        <option value="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" />
         <option value="$PROJECT_DIR$/assets/demo/default/base/scripts.bundle.js" />
         <option value="$PROJECT_DIR$/assets/vendors/custom/flot/flot.bundle.js" />
         <option value="F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/crud/forms/widgets/form-repeater.html" />
@@ -133,14 +139,23 @@
         <option value="$PROJECT_DIR$/style.php" />
         <option value="$PROJECT_DIR$/assets/vendors/base/vendors.bundle.js" />
         <option value="F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/crud/datatables/basic/basic.js" />
-        <option value="$PROJECT_DIR$/javascript.php" />
         <option value="F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search2.js" />
         <option value="$PROJECT_DIR$/add-project.php" />
-        <option value="$PROJECT_DIR$/left-menu.php" />
-        <option value="$PROJECT_DIR$/assets/custom.css" />
+        <option value="$PROJECT_DIR$/javascript.php" />
+        <option value="F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/components/maps/google-maps.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/map.php" />
+        <option value="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" />
         <option value="$PROJECT_DIR$/view-projects.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/meeting.php" />
+        <option value="$PROJECT_DIR$/add-meeting.php" />
+        <option value="$PROJECT_DIR$/assets/custom.css" />
+        <option value="$PROJECT_DIR$/approvals.php" />
+        <option value="$PROJECT_DIR$/left-menu.php" />
+        <option value="$PROJECT_DIR$/contacts.php" />
       </list>
     </option>
   </component>
@@ -154,10 +169,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="119" />
-    <option name="y" value="140" />
-    <option name="width" value="915" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,15 +244,17 @@
       <workItem from="1530832000434" duration="28000" />
       <workItem from="1530948099305" duration="19188000" />
       <workItem from="1531002338804" duration="55000" />
+      <workItem from="1531037924799" duration="14881000" />
+      <workItem from="1531124137973" duration="14773000" />
+      <workItem from="1531160591957" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135037000" />
+    <option name="totallyTimeSpent" value="164711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -272,51 +289,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748918">
-          <caret line="44054" column="32" selection-start-line="44054" selection-start-column="32" selection-end-line="44054" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-2.html" />
-    <entry file="file://$PROJECT_DIR$/login-1.html" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/assets/vendors/custom/gmaps/gmaps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret column="8216" selection-start-column="8216" selection-end-column="8216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/maps/google-maps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="3617" column="89" selection-start-line="3617" selection-start-column="81" selection-end-line="3617" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="470" column="9" lean-forward="true" selection-start-line="470" selection-start-column="9" selection-end-line="470" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="1157" column="5" selection-start-line="1157" selection-start-column="5" selection-end-line="1157" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/js/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quick_sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -328,13 +300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="4484" column="95" selection-start-line="4484" selection-end-line="4654" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="243" selection-start-line="243" selection-end-line="243" />
         </state>
       </provider>
     </entry>
@@ -359,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="72" selection-start-line="198" selection-start-column="72" selection-end-line="198" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/base/tabs/line.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68136">
@@ -384,13 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -527,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -555,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -576,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/left-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="108" column="54" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendors/base/vendors.bundle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5695">
@@ -590,24 +520,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img_avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../elshopper/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/components/maps/google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="253" selection-start-line="253" selection-end-line="291" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4556">
+          <caret line="268" column="21" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view-projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/add-project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78353">
+        <state relative-caret-position="346">
           <caret line="4609" selection-start-line="4609" selection-end-line="4609" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add-meeting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="250" column="46" selection-start-line="250" selection-start-column="46" selection-end-line="250" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21997" column="5" selection-start-line="21997" selection-start-column="5" selection-end-line="21997" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3689">
-          <caret line="217" column="23" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
+        <state relative-caret-position="7650">
+          <caret line="450" column="27" selection-start-line="450" selection-start-column="27" selection-end-line="450" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view-projects.php">
+    <entry file="file://$PROJECT_DIR$/crud/forms/widgets/form-repeater.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="127" column="64" selection-start-line="127" selection-start-column="63" selection-end-line="127" selection-end-column="64" />
+        <state relative-caret-position="80818">
+          <caret line="4754" column="71" selection-start-line="4754" selection-end-line="4755" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approvals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6494">
+          <caret line="382" column="58" selection-start-line="382" selection-start-column="58" selection-end-line="382" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/left-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
         </state>
       </provider>
     </entry>

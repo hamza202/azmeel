@@ -130,7 +130,7 @@
                     <span class="m-menu__arrow"></span>
                     <ul class="m-menu__subnav">
                         <li class="m-menu__item " aria-haspopup="true">
-                            <a href="#" class="m-menu__link ">
+                            <a href="meeting.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -140,12 +140,32 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true">
-                            <a href="#" class="m-menu__link ">
+                            <a href="add-meeting.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
                                 <span class="m-menu__link-text">
-                                    messenger
+                                    Add Meetings
+                                </span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="approvals.php" class="m-menu__link ">
+                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                                    <span></span>
+                                </i>
+                                <span class="m-menu__link-text">
+                                    Approvals
+                                </span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
+                            <a href="contacts.php" class="m-menu__link ">
+                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
+                                    <span></span>
+                                </i>
+                                <span class="m-menu__link-text">
+                                    Contacts
                                 </span>
                             </a>
                         </li>
@@ -214,7 +234,7 @@
             </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="javascript:;" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon flaticon-folder-4"></i>
+                    <i class="m-menu__link-icon flaticon-cogwheel-1"></i>
                     <span class="m-menu__link-text">
                         Settings
                     </span>

@@ -251,7 +251,46 @@ include "quick_sidebar.php"
 <?php
 include "javascript.php"
 ?>
-<!--end::Page Snippets -->
+<!--Start map script-->
+<script>
+    var GoogleMapsDemo = {
+        init: function () {
+            var t;
+            (t = new GMaps({div: "#m_gmap_3", lat: 24.703662, lng: 46.663893})).addMarker({
+                lat: 24.703662,
+                lng: 46.663893,
+                title: "Lima",
+                icon:'assets/green-marker.png',
+                details: {database_id: 42, author: "Hamza"},
+                infoWindow: {content: '<div class="map-span" style="color:#000">HTML Content!</div>'}
+            }), t.addMarker({
+                lat: 24.603662,
+                lng: 46.763893,
+                title: "Marker with InfoWindow",
+                icon:'assets/red-marker.png',
+                infoWindow: {content: '<div class="map-span" style="color:#000">HTML Content!</div>'}
+            }), t.addMarker({
+                lat: 24.803662,
+                lng: 46.763893,
+                icon:'assets/orange-marker.png',
+                title: "Marker with InfoWindow",
+                infoWindow: {content: '<div class="map-span" style="color:#000">HTML Content!</div>'}
+            }),t.addMarker({
+                lat: 24.753662,
+                lng: 46.703893,
+                icon:'',
+                title: "Marker with InfoWindow",
+                infoWindow: {content: '<div  class="map-span" style="color:#000">Our Company</div>'}
+            }),t.setZoom(10)
+        }
+    };
+    jQuery(document).ready(function () {
+        GoogleMapsDemo.init()
+    });
+
+</script>
+<!--End map script-->
+
 <script>
     function startTime() {
         var today = new Date();
@@ -276,7 +315,6 @@ include "javascript.php"
 
     startTime();
 </script>
-<!--end::Page Resources -->
 </body>
 <!-- end::Body -->
 </html>
