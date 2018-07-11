@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="93bc3f14-c2a3-4394-8e78-63a5c3465af7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add-project.php" beforeDir="false" afterPath="$PROJECT_DIR$/add-project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/default/custom/components/maps/google-maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/left-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/left-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/view-projects.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +17,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="form-repeater.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crud/forms/widgets/form-repeater.html">
+      <file leaf-file-name="left-menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/left-menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80818">
-              <caret line="4754" column="71" selection-start-line="4754" selection-end-line="4755" />
+            <state relative-caret-position="354">
+              <caret line="217" column="49" lean-forward="true" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attend-request.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/attend-request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="138" column="39" lean-forward="true" selection-start-line="138" selection-start-column="39" selection-end-line="151" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work-location.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work-location.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appointments.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Appointments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="125" column="100" selection-start-line="125" selection-start-column="100" selection-end-line="125" selection-end-column="100" />
+              <folding>
+                <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#7966#7973#0#HTML" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Memo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Memo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -32,35 +71,17 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7650">
-              <caret line="450" column="27" selection-start-line="450" selection-start-column="27" selection-end-line="450" selection-end-column="27" />
+            <state relative-caret-position="269">
+              <caret line="402" column="23" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left-menu.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/left-menu.php">
+      <file leaf-file-name="Notifications.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notifications.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contacts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="approvals.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/approvals.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6494">
-              <caret line="382" column="58" selection-start-line="382" selection-start-column="58" selection-end-line="382" selection-end-column="58" />
+            <state relative-caret-position="530">
+              <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -69,16 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tfoo</find>
-      <find>DatatablesSearchOptionsAdvancedSearch</find>
-      <find>ser</find>
-      <find>m_reset</find>
-      <find>#m_table_1</find>
-      <find>m_datepicker</find>
-      <find>m_search</find>
-      <find>Reports</find>
-      <find>m_table_2</find>
-      <find>2 day ago</find>
       <find>id=&quot;m_modal_6</find>
       <find>Organizational organ:</find>
       <find>m_portlet_base_demo_2_3_tab_content</find>
@@ -93,22 +104,32 @@
       <find>ppc-percents1</find>
       <find>pie-chart</find>
       <find>percent</find>
-      <find>.countdown-value</find>
       <find>m_gmap_3</find>
       <find>.view-project-section .ppc-progress .ppc-progress-fill</find>
       <find>d-flex align-items-center</find>
       <find>Select date and time</find>
       <find>Staff required to attend</find>
+      <find>../../assets</find>
+      <find>fa flaticon-user-ok</find>
+      <find>.m-widget4__info i</find>
+      <find>Vice Project Manager</find>
+      <find>Melania Trump</find>
+      <find>date</find>
+      <find>countdown</find>
+      <find>.countdown-value</find>
+      <find>Employee Name:Appointment Name:</find>
+      <find>Memo</find>
+      <find>.countdown-container</find>
     </findStrings>
     <replaceStrings>
       <replace>079c38</replace>
-      <replace>assets</replace>
       <replace />
       <replace>11a541</replace>
       <replace>.m_table_2</replace>
       <replace>DatatablesSearchOptionsAdvancedSearch2</replace>
       <replace>#m_table_2</replace>
       <replace>Engineer</replace>
+      <replace>assets</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,7 +163,6 @@
         <option value="F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search.js" />
         <option value="$PROJECT_DIR$/assets/demo/default/custom/crud/datatables/search-options/advanced-search2.js" />
-        <option value="$PROJECT_DIR$/add-project.php" />
         <option value="$PROJECT_DIR$/javascript.php" />
         <option value="F:/themforest/themeforest-4021469-metronic-responsive-admin-dashboard-template/metronic_v5.2.1/metronic_v5.2.1/default/dist/default/assets/demo/default/custom/components/maps/google-maps.js" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -152,10 +172,16 @@
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/meeting.php" />
         <option value="$PROJECT_DIR$/add-meeting.php" />
-        <option value="$PROJECT_DIR$/assets/custom.css" />
         <option value="$PROJECT_DIR$/approvals.php" />
-        <option value="$PROJECT_DIR$/left-menu.php" />
         <option value="$PROJECT_DIR$/contacts.php" />
+        <option value="$PROJECT_DIR$/add-project.php" />
+        <option value="$PROJECT_DIR$/attend-request.php" />
+        <option value="$PROJECT_DIR$/work-location.php" />
+        <option value="$PROJECT_DIR$/Appointments.php" />
+        <option value="$PROJECT_DIR$/Memo.php" />
+        <option value="$PROJECT_DIR$/left-menu.php" />
+        <option value="$PROJECT_DIR$/assets/custom.css" />
+        <option value="$PROJECT_DIR$/Notifications.php" />
       </list>
     </option>
   </component>
@@ -169,10 +195,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="119" />
+    <option name="y" value="140" />
+    <option name="width" value="915" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,15 +213,11 @@
               <item name="azmeel" type="b2602c69:ProjectViewProjectNode" />
               <item name="azmeel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="azmeel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azmeel" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,14 +268,17 @@
       <workItem from="1531037924799" duration="14881000" />
       <workItem from="1531124137973" duration="14773000" />
       <workItem from="1531160591957" duration="20000" />
+      <workItem from="1531209616662" duration="12105000" />
+      <workItem from="1531299344109" duration="14276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164711000" />
+    <option name="totallyTimeSpent" value="191092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -289,48 +313,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quick_sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="605" selection-start-line="605" selection-end-line="605" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud/forms/widgets/select2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="4484" column="95" selection-start-line="4484" selection-end-line="4654" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud/forms/widgets/dropzone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74494">
-          <caret line="4382" column="105" selection-start-line="4382" selection-end-line="4383" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud/forms/validation/form-controls.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86513">
-          <caret line="5089" column="117" selection-start-line="5089" selection-start-column="117" selection-end-line="5089" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/default/custom/crud/forms/validation/form-controls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/base/tabs/line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68136">
-          <caret line="4008" column="72" selection-start-line="4008" selection-start-column="72" selection-end-line="4053" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new-member.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -575,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add-project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="4609" selection-start-line="4609" selection-end-line="4609" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meeting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -596,45 +571,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="21997" column="5" selection-start-line="21997" selection-start-column="5" selection-end-line="21997" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7650">
-          <caret line="450" column="27" selection-start-line="450" selection-start-column="27" selection-end-line="450" selection-end-column="27" />
+        <state relative-caret-position="201">
+          <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crud/forms/widgets/form-repeater.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80818">
+        <state relative-caret-position="394">
           <caret line="4754" column="71" selection-start-line="4754" selection-end-line="4755" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/approvals.php">
+    <entry file="file://$PROJECT_DIR$/assets/demo/default/base/style.bundle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6494">
-          <caret line="382" column="58" selection-start-line="382" selection-start-column="58" selection-end-line="382" selection-end-column="58" />
+        <state relative-caret-position="3100">
+          <caret line="13525" column="5" selection-start-line="13525" selection-start-column="5" selection-end-line="13525" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="431" column="47" selection-start-line="431" selection-start-column="47" selection-end-line="431" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approvals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="382" column="58" selection-start-line="382" selection-start-column="58" selection-end-line="382" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add-project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="1156" column="85" selection-start-line="1156" selection-start-column="85" selection-end-line="1156" selection-end-column="85" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attend-request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="138" column="39" lean-forward="true" selection-start-line="138" selection-start-column="39" selection-end-line="151" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work-location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appointments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="125" column="100" selection-start-line="125" selection-start-column="100" selection-end-line="125" selection-end-column="100" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#7966#7973#0#HTML" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/left-menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+        <state relative-caret-position="354">
+          <caret line="217" column="49" lean-forward="true" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="402" column="23" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
         </state>
       </provider>
     </entry>

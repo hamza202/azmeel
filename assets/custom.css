@@ -187,6 +187,9 @@
 #m_modal_1  span.select2-container{
     width: 100% !important;
 }
+#m_modal_2 span.select2-container{
+    width: 100% !important;
+}
 .m-dropzone{
     padding: 0 !important;
 }
@@ -284,7 +287,7 @@
     padding: 10px;
     border: 2px dashed #11a541;
 }
-.select2-container{
+#tabs3 .select2-container{
     width: 100% !important;
 }
 .overflow-hidden{
@@ -396,6 +399,8 @@
     margin: 0 auto;
     display: table;
     white-space: nowrap;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .countdown {
@@ -427,6 +432,24 @@
 .approval-table td,.approval-table th{
     vertical-align: middle;
 }
+.Appointment-container p{
+    padding-left: 8px;
+    font-size: 14px;
+    position: relative;
+}
+.Appointment-container p::before{
+    position: absolute;
+    display: block;
+    width: 4px;
+    border-radius: 4px;
+    height: 100%;
+    left: 0;
+    content: "";
+    background: #64bc36;
+}
+.Appointment-container label{
+    font-weight: 600;
+}
 @media (min-width: 540px) {
     .countdown-value {
         font-size: 48px;
@@ -434,7 +457,13 @@
         min-width: 100px;
     }
 }
-
+@media (min-width: 540px) {
+    .Appointment-container .countdown-value {
+        font-size: 48px;
+        padding: 10px 20px;
+        min-width: 100px;
+    }
+}
 .countdown-unit {
     display: block;
     text-transform: uppercase;
@@ -447,7 +476,28 @@
 .btn.btn-warning:hover:not(:disabled){
     color: #fff !important;
 }
-
+.m-widget4__info i{
+    padding-right: 5px;
+    color: #64bc36;
+    width: 16px;
+}
+.contacts-section .m-widget4__item{
+    min-height: 116px;
+}
+.contacts-section .fa-facebook-messenger{
+    font-size: 31px !important;
+}
+.contacts-section .m-widget4__item:nth-child(odd){
+    border-right: .07rem dashed #ebedf2;
+}
+.page-link{
+    color: #64bc36;
+    border-color:#64bc36;
+}
+.page-link:hover{
+    background-color: #64bc36;
+    color: #fff;
+}
 @media (min-width: 540px) {
     .countdown-unit {
         font-size: 14px;
