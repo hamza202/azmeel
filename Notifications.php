@@ -88,12 +88,18 @@
                                                         </span>
                                                         <br>
                                                         <span class="m-timeline-3__item-user-name">
-                                                            <span class="text-success">To:</span> <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Derrick , </a>
-                                                                <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> hamza , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Ahmed , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> mohammad , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> kaream , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Naser , </a>
+                                                            <span class="text-success">To:</span> <a href="#"
+                                                                                                     class="m-link m-link--metal m-timeline-3__item-link"> Derrick , </a>
+                                                                <a href="#"
+                                                                   class="m-link m-link--metal m-timeline-3__item-link"> hamza , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> Ahmed , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> mohammad , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> kaream , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> Naser , </a>
 
                                                         </span>
                                                     </div>
@@ -110,12 +116,18 @@
                                                         </span>
                                                         <br>
                                                         <span class="m-timeline-3__item-user-name">
-                                                            <span class="text-success">To:</span> <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Derrick , </a>
-                                                                <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> hamza , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Ahmed , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> mohammad , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> kaream , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Naser , </a>
+                                                            <span class="text-success">To:</span> <a href="#"
+                                                                                                     class="m-link m-link--metal m-timeline-3__item-link"> Derrick , </a>
+                                                                <a href="#"
+                                                                   class="m-link m-link--metal m-timeline-3__item-link"> hamza , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> Ahmed , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> mohammad , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> kaream , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> Naser , </a>
 
                                                         </span>
                                                     </div>
@@ -132,12 +144,18 @@
                                                         </span>
                                                         <br>
                                                         <span class="m-timeline-3__item-user-name">
-                                                            <span class="text-success">To:</span> <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Derrick , </a>
-                                                                <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> hamza , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Ahmed , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> mohammad , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> kaream , </a>
-                                                            <a href="#" class="m-link m-link--metal m-timeline-3__item-link"> Naser , </a>
+                                                            <span class="text-success">To:</span> <a href="#"
+                                                                                                     class="m-link m-link--metal m-timeline-3__item-link"> Derrick , </a>
+                                                                <a href="#"
+                                                                   class="m-link m-link--metal m-timeline-3__item-link"> hamza , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> Ahmed , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> mohammad , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> kaream , </a>
+                                                            <a href="#"
+                                                               class="m-link m-link--metal m-timeline-3__item-link"> Naser , </a>
 
                                                         </span>
                                                     </div>
@@ -177,14 +195,49 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form action="#">
-                            <div class="form-group">
-                                <label for="message-text" class="form-control-label">
-                                    Notification text:
-                                </label>
-                                <textarea class="form-control" id="message-text"></textarea>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="message-text" class="form-control-label">
+                                        Notification text:
+                                    </label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
                             </div>
-                        </form>
+                            <div class="col-12">
+                                <div class="form-group m-form__group ">
+                                    <label for="select-3">
+                                        Send To:
+                                    </label>
+                                    <select class="m_select2_9 form-control m-select2" id="select-3"
+                                            name="param" multiple>
+                                        <option></option>
+                                        <optgroup label="Alaskan/Hawaiian Time Zone">
+                                            <option value="AK">
+                                                Alaska
+                                            </option>
+                                            <option value="HI">
+                                                Hawaii
+                                            </option>
+                                        </optgroup>
+                                        <optgroup label="Pacific Time Zone">
+                                            <option value="CA">
+                                                California
+                                            </option>
+                                            <option value="NV">
+                                                Nevada
+                                            </option>
+                                            <option value="OR">
+                                                Oregon
+                                            </option>
+                                            <option value="WA">
+                                                Washington
+                                            </option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -215,41 +268,7 @@ include "quick_sidebar.php"
 <?php
 include "javascript.php"
 ?>
-<script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-datetimepicker.js" type="text/javascript"></script>
-<!--end::Page Snippets -->
-<script>
-    var end = new Date('10/8/2018 4:00 PM');
 
-    var _second = 1000;
-    var _minute = _second * 60;
-    var _hour = _minute * 60;
-    var _day = _hour * 24;
-    var timer;
-
-    function showRemaining() {
-        var now = new Date();
-        var distance = end - now;
-        if (distance < 0) {
-
-            clearInterval(timer);
-            document.getElementById('countdown').innerHTML = 'EXPIRED!';
-
-            return;
-        }
-        var days = Math.floor(distance / _day);
-        var hours = Math.floor((distance % _day) / _hour);
-        var minutes = Math.floor((distance % _hour) / _minute);
-        var seconds = Math.floor((distance % _minute) / _second);
-
-        document.getElementById('countdown').innerHTML = '<li class="countdown-item"><span class="countdown-value">' + days + '</span><span class="countdown-unit">days</span></li>';
-        document.getElementById('countdown').innerHTML += '<li class="countdown-item"><span class="countdown-value">' + hours + '</span><span class="countdown-unit">hours</span></li>';
-        document.getElementById('countdown').innerHTML += '<li class="countdown-item"><span class="countdown-value">' + minutes + '</span><span class="countdown-unit">minutes</span></li>';
-        document.getElementById('countdown').innerHTML += '<li class="countdown-item d-md-table-cell d-none"><span class="countdown-value">' + seconds + '</span><span class="countdown-unit">seconds</span></li>';
-    }
-
-    timer = setInterval(showRemaining, 1000);
-</script>
-<!--end::Page Resources -->
 </body>
 <!-- end::Body -->
 </html>

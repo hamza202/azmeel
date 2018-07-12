@@ -450,6 +450,77 @@
 .Appointment-container label{
     font-weight: 600;
 }
+.edit-profile-photo {
+    position: relative;
+    display: block;
+}
+.edit-profile-photo {
+    text-align: center;
+}
+.edit-profile-photo img {
+    border-radius: 4px;
+    max-width: 100%;
+    width: auto;
+    max-height: 206px;
+}
+.change-photo-btn {
+    font-weight: 600;
+    padding: 5px 6px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 50px;
+    display: block;
+    font-size: 13px;
+    transition: .3s;
+    cursor: pointer;
+    line-height: 20px;
+    position: absolute;
+    bottom: 15px;
+    width: auto;
+    left: 0;
+    right: 0;
+    max-width: 140px;
+    margin: 0 auto;
+}
+.photoUpload {
+    position: relative;
+    overflow: hidden;
+    padding: 3px 12px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.change-photo-btn i {
+    margin-right: 2px;
+}
+input.file-upload{
+    height: 51px;
+    line-height: 51px;
+    padding: 0 20px;
+    outline: 0;
+    font-size: 15px;
+    color: gray;
+    margin: 0 0 16px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+    font-weight: 500;
+    opacity: 1;
+    border-radius: 3px;
+}
+.photoUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
 @media (min-width: 540px) {
     .countdown-value {
         font-size: 48px;
