@@ -61,7 +61,7 @@
                                             </h3>
                                         </div>
                                         <div>
-                                            <a href="#" class="btn m-btn--pill m-btn--air  btn-outline-success m-btn m-btn--custom">
+                                            <a href="add-project.php" class="btn m-btn--pill m-btn--air  btn-outline-success m-btn m-btn--custom">
                                                 Project Details
                                             </a>
                                         </div>
@@ -115,7 +115,7 @@
                                             </h3>
                                         </div>
                                         <div>
-                                            <a href="#" class="btn m-btn--pill m-btn--air  btn-outline-success m-btn m-btn--custom">
+                                            <a href="add-project.php" class="btn m-btn--pill m-btn--air  btn-outline-success m-btn m-btn--custom">
                                                 Project Details
                                             </a>
                                         </div>

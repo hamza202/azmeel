@@ -65,7 +65,7 @@
                                 <div class="add-power">
                                     <form action="#">
                                         <div class="row text-center ">
-                                            <div class="col-sm-8 text-sm-left">
+                                            <div class="col-sm-12 text-sm-left">
 
                                                 <a href="#"
                                                    class="btn btn-brand  m-btn--air m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill"
@@ -187,11 +187,7 @@
                                                 </div>
                                                 <!--end::Modal-->
                                             </div>
-                                            <div class="col-sm-4 mt-3 mt-sm-0 text-sm-right">
-                                                <button type="submit" class="btn btn-success">
-                                                    Save
-                                                </button>
-                                            </div>
+
                                         </div>
                                     </form>
                                 </div>

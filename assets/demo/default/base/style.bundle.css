@@ -47908,8 +47908,8 @@ body.m-content--skin-light2 {
 }
 
 .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon > i:before {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #0c6228), color-stop(50%, #0e8c37), color-stop(75%, #17c550), to(#36f976));
-    background: linear-gradient(180deg, #0c6228 25%, #0e8c37 50%, #17c550 75%, #36f976 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #6abe3e), color-stop(50%, #7cc656), color-stop(75%, #17c550), to(#36f976));
+    background: linear-gradient(180deg, #6abe3e 25%, #7cc656 50%, #17c550 75%, #36f976 100%);
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;

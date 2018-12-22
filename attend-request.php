@@ -64,105 +64,112 @@
                                 </div>
                                 <div class="m-portlet__body">
                                     <form action="#">
-                                    <div class="row">
+                                        <div class="row">
 
-                                        <div class="col-md-12">
-                                            <div class="form-group m-form__group ">
-                                                <label for="select-3">
-                                                    Members to attend:
-                                                </label>
-                                                <select class="m_select2_9 form-control m-select2" id="select-3"
-                                                        name="param" multiple>
-                                                    <option></option>
-                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                        <option value="AK">
-                                                            Alaska
-                                                        </option>
-                                                        <option value="HI">
-                                                            Hawaii
-                                                        </option>
-                                                    </optgroup>
-                                                    <optgroup label="Pacific Time Zone">
-                                                        <option value="CA">
-                                                            California
-                                                        </option>
-                                                        <option value="NV">
-                                                            Nevada
-                                                        </option>
-                                                        <option value="OR">
-                                                            Oregon
-                                                        </option>
-                                                        <option value="WA">
-                                                            Washington
-                                                        </option>
-                                                    </optgroup>
-                                                    <optgroup label="Mountain Time Zone">
-                                                        <option value="AZ">
-                                                            Arizona
-                                                        </option>
-                                                        <option value="CO">
-                                                            Colorado
-                                                        </option>
-                                                        <option value="ID">
-                                                            Idaho
-                                                        </option>
-                                                        <option value="MT">
-                                                            Montana
-                                                        </option>
-                                                        <option value="NE">
-                                                            Nebraska
-                                                        </option>
-                                                        <option value="NM">
-                                                            New Mexico
-                                                        </option>
-                                                        <option value="ND">
-                                                            North Dakota
-                                                        </option>
-                                                        <option value="UT">
-                                                            Utah
-                                                        </option>
-                                                        <option value="WY">
-                                                            Wyoming
-                                                        </option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group m-form__group">
-                                                <label for="place">
-                                                    Attendance place:
-                                                </label>
-                                                <input type="text" class="form-control m-input" id="place" placeholder="Attendance place">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="place">
-                                                Attendance Date:
-                                            </label>
-                                            <div class="input-group date" >
-
-                                                <input type="text" class="form-control m-input" placeholder="Select date and time" id="m_datetimepicker_5"/>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">
-                                                        <i class="la la-calendar glyphicon-th"></i>
-                                                    </span>
+                                            <div class="col-md-12">
+                                                <div class="form-group m-form__group ">
+                                                    <label for="select-3">
+                                                        Members to attend:
+                                                    </label>
+                                                    <select class="m_select2_9 form-control m-select2" id="select-3"
+                                                            name="param" multiple>
+                                                        <option></option>
+                                                        <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                            <option value="AK">
+                                                                Alaska
+                                                            </option>
+                                                            <option value="HI">
+                                                                Hawaii
+                                                            </option>
+                                                        </optgroup>
+                                                        <optgroup label="Pacific Time Zone">
+                                                            <option value="CA">
+                                                                California
+                                                            </option>
+                                                            <option value="NV">
+                                                                Nevada
+                                                            </option>
+                                                            <option value="OR">
+                                                                Oregon
+                                                            </option>
+                                                            <option value="WA">
+                                                                Washington
+                                                            </option>
+                                                        </optgroup>
+                                                        <optgroup label="Mountain Time Zone">
+                                                            <option value="AZ">
+                                                                Arizona
+                                                            </option>
+                                                            <option value="CO">
+                                                                Colorado
+                                                            </option>
+                                                            <option value="ID">
+                                                                Idaho
+                                                            </option>
+                                                            <option value="MT">
+                                                                Montana
+                                                            </option>
+                                                            <option value="NE">
+                                                                Nebraska
+                                                            </option>
+                                                            <option value="NM">
+                                                                New Mexico
+                                                            </option>
+                                                            <option value="ND">
+                                                                North Dakota
+                                                            </option>
+                                                            <option value="UT">
+                                                                Utah
+                                                            </option>
+                                                            <option value="WY">
+                                                                Wyoming
+                                                            </option>
+                                                        </optgroup>
+                                                    </select>
                                                 </div>
                                             </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group m-form__group">
+                                                    <label for="place">
+                                                        Attendance place:
+                                                    </label>
+                                                    <input type="text" class="form-control m-input" id="place"
+                                                           placeholder="Attendance place">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="m-form__group form-group">
+                                                    <div class="m-radio-inline">
+                                                        <label class="m-radio">
+                                                            <input type="radio" name="example_3" value="1">
+                                                            Attendance now
+                                                            <span></span>
+                                                        </label>
+                                                        <label class="m-radio w-100 date-label">
+                                                            <input type="radio" name="example_3" value="2">
+                                                            <div class="input-group date">
+                                                                <input type="text" class="form-control m-input"
+                                                                       placeholder="Select date and time"
+                                                                       id="m_datetimepicker_5"/>
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text">
+                                                                        <i class="la la-calendar glyphicon-th"></i>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <span class="click-span" style="top: 8px;"></span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="submit" class="btn btn-outline-success">
+                                                    Send
+                                                </button>
+                                            </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <label class="m-checkbox m-checkbox--bold m-checkbox--state-success">
-                                                <input type="checkbox">
-                                                Attendance now
-                                                <span></span>
-                                            </label>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button type="submit" class="btn btn-outline-success">
-                                                Send
-                                            </button>
-                                        </div>
-                                    </div>
                                     </form>
                                     <div class="m-widget3">
                                         <div class="row">
@@ -399,7 +406,11 @@ include "javascript.php"
 ?>
 <script src="assets/demo/default/custom/crud/forms/widgets/bootstrap-datetimepicker.js" type="text/javascript"></script>
 <!--end::Page Snippets -->
-
+<script>
+    $( ".date-label input" ).on( "click", function() {
+        $(".date-label").click();
+    });
+</script>
 <!--end::Page Resources -->
 </body>
 <!-- end::Body -->

@@ -115,7 +115,7 @@
                                                     <label>
                                                         Remaining time:
                                                     </label>
-                                                    <div class="countdown-container">
+                                                    <div class="countdown-container memo-countdown">
                                                         <ul class="countdown" id="countdown">
 
                                                         </ul>
@@ -256,7 +256,7 @@ include "javascript.php"
         document.getElementById('countdown').innerHTML = '<li class="countdown-item"><span class="countdown-value">' + days + '</span><span class="countdown-unit">days</span></li>';
         document.getElementById('countdown').innerHTML += '<li class="countdown-item"><span class="countdown-value">' + hours + '</span><span class="countdown-unit">hours</span></li>';
         document.getElementById('countdown').innerHTML += '<li class="countdown-item"><span class="countdown-value">' + minutes + '</span><span class="countdown-unit">minutes</span></li>';
-        document.getElementById('countdown').innerHTML += '<li class="countdown-item d-md-table-cell d-none"><span class="countdown-value">' + seconds + '</span><span class="countdown-unit">seconds</span></li>';
+        document.getElementById('countdown').innerHTML += '<li class="countdown-item d-md-inline-block d-none"><span class="countdown-value">' + seconds + '</span><span class="countdown-unit">seconds</span></li>';
     }
 
     timer = setInterval(showRemaining, 1000);

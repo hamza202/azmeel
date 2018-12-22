@@ -155,9 +155,10 @@
     padding-top: 2.2rem ;
 }
 .power-body a.btn{
-    display: block;
+    display: inline-block;
     position: relative;
     height: 35px;
+    width: calc(100% - 73px);
 }
 .power-body .m-btn--icon > span > span{
     position: absolute;
@@ -569,6 +570,74 @@ input.file-upload{
     background-color: #64bc36;
     color: #fff;
 }
+.language-list li{
+    padding: 10px;
+}
+.language-list img{
+    max-width: 25px;
+}
+.language-list a{
+    text-decoration: none;
+    color: #64bc36;
+    transition: all 0.3s;
+    display: block;
+}
+.language-list a:hover{
+    transform: translateX(4px);
+}
+.delete-check{
+    position: relative;
+}
+.delete-check label.m-checkbox{
+    position: absolute;
+    left: -25px;
+    top: 12px;
+}
+.m-widget3.m-widget2{
+    padding-left: 25px;
+}
+.modal .select2-container{
+    width: 100% !important;
+}
+.memo-countdown.countdown-container{
+    display: block;
+}
+.memo-countdown .countdown{
+    display: block;
+    text-align: left;
+}
+.memo-countdown .countdown-item{
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+.memo-countdown .countdown-unit{
+    padding: 5px;
+    font-size: 12px;
+}
+.memo-countdown .countdown-value{
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    color: #64bc36;
+    min-width: 75px;
+}
+.memo-container .memo-countdown .countdown-value{
+    color: #34bfa3;
+}
+.memo-container p::before{
+    background: #9816f4;
+}
+.memo-container .countdown-unit{
+    color: #36a3f7;
+}
+@media (min-width: 1025px){
+    .language-drup{
+        width: 100px !important;
+    }
+}
+
 @media (min-width: 540px) {
     .countdown-unit {
         font-size: 14px;

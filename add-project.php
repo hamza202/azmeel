@@ -1217,293 +1217,295 @@
                                     <!--  Start Files Tap  -->
                                     <div class="tab-pane" id="tabs4" role="tabpanel">
                                         <div class="row">
-                                            <div class="col text-center">
+                                            <div class="col">
                                                 <button type="button" class="btn btn-brand" data-toggle="modal"
                                                         data-target="#m_modal_5">
                                                     Upload Report
+                                                    <i class="fas fa-upload pl-2"></i>
                                                 </button>
                                             </div>
-                                            <div class="row mt-4">
-                                                <div class="col">
-                                                    <form class="m-form m-form--fit m--margin-bottom-20">
-                                                        <div class="row m--margin-bottom-20">
-                                                            <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
-                                                                <label>
-                                                                    ID:
-                                                                </label>
+                                        </div>
+                                        <div class="row mt-4">
+                                            <div class="col">
+                                                <form class="m-form m-form--fit m--margin-bottom-20">
+                                                    <div class="row m--margin-bottom-20">
+                                                        <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
+                                                            <label>
+                                                                ID:
+                                                            </label>
+                                                            <input type="text" class="form-control m-input"
+                                                                   placeholder="E.g: 4590" data-col-index="0">
+                                                        </div>
+                                                        <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
+                                                            <label>
+                                                                Report Name:
+                                                            </label>
+                                                            <input type="text" class="form-control m-input"
+                                                                   placeholder="E.g: 37000-300" data-col-index="1">
+                                                        </div>
+                                                        <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
+                                                            <label>
+                                                                Upload By:
+                                                            </label>
+                                                            <input type="text" class="form-control m-input"
+                                                                   placeholder="E.g: Hamza" data-col-index="2">
+                                                        </div>
+                                                        <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
+                                                            <label>
+                                                                Upload Date:
+                                                            </label>
+                                                            <div class="input-daterange input-group m_datepicker">
                                                                 <input type="text" class="form-control m-input"
-                                                                       placeholder="E.g: 4590" data-col-index="0">
-                                                            </div>
-                                                            <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
-                                                                <label>
-                                                                    Report Name:
-                                                                </label>
-                                                                <input type="text" class="form-control m-input"
-                                                                       placeholder="E.g: 37000-300" data-col-index="1">
-                                                            </div>
-                                                            <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
-                                                                <label>
-                                                                    Upload By:
-                                                                </label>
-                                                                <input type="text" class="form-control m-input"
-                                                                       placeholder="E.g: Hamza" data-col-index="2">
-                                                            </div>
-                                                            <div class="col-lg-3 m--margin-bottom-10-tablet-and-mobile">
-                                                                <label>
-                                                                    Upload Date:
-                                                                </label>
-                                                                <div class="input-daterange input-group m_datepicker">
-                                                                    <input type="text" class="form-control m-input"
-                                                                           name="start"
-                                                                           placeholder="From" data-col-index="3"/>
-                                                                    <div class="input-group-append">
+                                                                       name="start"
+                                                                       placeholder="From" data-col-index="3"/>
+                                                                <div class="input-group-append">
 																					<span class="input-group-text">
 																						<i class="la la-ellipsis-h"></i>
 																					</span>
-                                                                    </div>
-                                                                    <input type="text" class="form-control m-input"
-                                                                           name="end"
-                                                                           placeholder="To" data-col-index="3"/>
                                                                 </div>
+                                                                <input type="text" class="form-control m-input"
+                                                                       name="end"
+                                                                       placeholder="To" data-col-index="3"/>
                                                             </div>
                                                         </div>
-                                                        <div class="m-separator m-separator--md m-separator--dashed"></div>
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <button class="btn btn-brand m-btn m-btn--icon m_search">
+                                                    </div>
+                                                    <div class="m-separator m-separator--md m-separator--dashed"></div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <button class="btn btn-brand m-btn m-btn--icon m_search">
 																				<span>
 																					<i class="la la-search"></i>
 																					<span>
 																						Search
 																					</span>
 																				</span>
-                                                                </button>
-                                                                &nbsp;&nbsp;
-                                                                <button class="btn btn-secondary m-btn m-btn--icon m_reset">
+                                                            </button>
+                                                            &nbsp;&nbsp;
+                                                            <button class="btn btn-secondary m-btn m-btn--icon m_reset">
 																				<span>
 																					<i class="la la-close"></i>
 																					<span>
 																						Reset
 																					</span>
 																				</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-
-                                                    <table class="table table-striped- table-bordered table-hover table-checkable"
-                                                           id="m_table_1">
-                                                        <thead>
-                                                        <tr>
-                                                            <th>
-                                                                ID
-                                                            </th>
-                                                            <th>
-                                                                Report Name
-                                                            </th>
-                                                            <th>
-                                                                Upload By
-                                                            </th>
-                                                            <th>
-                                                                Upload Date
-                                                            </th>
-                                                            <th>
-                                                                more
-                                                            </th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                01
-                                                            </td>
-                                                            <td>
-                                                                Report name1
-                                                            </td>
-                                                            <td>
-                                                                5/21/2017
-                                                            </td>
-                                                            <td>
-                                                                hamza
-                                                            </td>
-                                                        </tr>
-                                                        </tbody>
-                                                        <tfoot>
-                                                        <tr>
-                                                            <th>
-                                                                ID
-                                                            </th>
-                                                            <th>
-                                                                Report Name
-                                                            </th>
-                                                            <th>
-                                                                Upload Date
-                                                            </th>
-                                                            <th>
-                                                                Upload By
-                                                            </th>
-                                                            <th>
-                                                                More
-                                                            </th>
-                                                        </tr>
-                                                        </tfoot>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            <!--begin:: File view Modal-->
-                                            <div class="modal fade" id="m_modal_6" tabindex="-1" role="dialog"
-                                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-lg" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLabel">
-                                                                More Details
-                                                            </h5>
-                                                            <button type="button" class="close" data-dismiss="modal"
-                                                                    aria-label="Close">
-																			<span aria-hidden="true">
-																				&times;
-																			</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <div class="m-scrollable" data-scrollbar-shown="true"
-                                                                 data-scrollable="true" data-height="300">
-                                                                <form>
-                                                                    <div class="m-section">
-                                                                        <div class="m-section__content">
-                                                                            <table class="table m-table m-table--head-bg-brand file-details-table">
-                                                                                <thead>
-                                                                                <tr>
-                                                                                    <th>
-                                                                                        File name
-                                                                                    </th>
-                                                                                    <th>
-                                                                                        Upload By
-                                                                                    </th>
-                                                                                    <th>
-                                                                                        Upload Date
-                                                                                    </th>
-                                                                                    <th>
-                                                                                        Show File
-                                                                                    </th>
-                                                                                </tr>
-                                                                                </thead>
-                                                                                <tbody>
-                                                                                <tr class="gry-bg">
-                                                                                    <td>
-                                                                                        6565-564
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        Larry
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        7/5/2018
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <a href="https://docs.google.com/spreadsheets/d/1uCNdAAbLM0x6r1V_UJTR-5GVhxlPDp-ydtl_mfPeJ-k/edit?usp=sharing"
-                                                                                           target="_blank"
-                                                                                           class="btn btn-outline-success m-btn m-btn--icon m-btn--icon-only">
-                                                                                            <i class="fa flaticon-folder"></i>
-                                                                                        </a>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="comment-container m-widget3">
-                                                                        <div class="m-widget3__item">
-                                                                            <div class="m-widget3__header">
-                                                                                <div class="m-widget3__user-img">
-                                                                                    <img class="m-widget3__img"
-                                                                                         src="assets/app/media/img/users/user1.jpg"
-                                                                                         alt="">
-                                                                                </div>
-                                                                                <div class="m-widget3__info">
-                                                                        <span class="m-widget3__username">
-                                                                            Melania Trump
-                                                                        </span>
-                                                                                    <br>
-                                                                                    <span class="m-widget3__time">
-                                                                        Engineer
-                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="m-widget3__body">
-                                                                                <p class="m-widget3__text">
-                                                                                    Lorem ipsum dolor sit
-                                                                                    amet,consectetuer
-                                                                                    edipiscing elit,sed diam nonummy
-                                                                                    nibh
-                                                                                    euismod
-                                                                                    tinciduntut laoreet doloremagna
-                                                                                    aliquam
-                                                                                    erat
-                                                                                    volutpat.
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="m-widget3__item">
-                                                                            <div class="m-widget3__header">
-                                                                                <div class="m-widget3__user-img">
-                                                                                    <img class="m-widget3__img"
-                                                                                         src="assets/app/media/img/users/user4.jpg"
-                                                                                         alt="">
-                                                                                </div>
-                                                                                <div class="m-widget3__info">
-                                                                    <span class="m-widget3__username">
-                                                                        Lebron King James
-                                                                    </span>
-                                                                                    <br>
-                                                                                    <span class="m-widget3__time">
-                                                                        1 day ago
-                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="m-widget3__body">
-                                                                                <p class="m-widget3__text">
-                                                                                    Lorem ipsum dolor sit
-                                                                                    amet,consectetuer
-                                                                                    edipiscing elit,sed diam nonummy
-                                                                                    nibh
-                                                                                    euismod
-                                                                                    tinciduntut laoreet doloremagna
-                                                                                    aliquam
-                                                                                    erat
-                                                                                    volutpat.Ut wisi enim ad minim
-                                                                                    veniam,quis
-                                                                                    nostrud exerci tation ullamcorper.
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-group m-form__group">
-                                                                        <div class="input-group mt-4">
-                                                                            <input type="text" class="form-control"
-                                                                                   placeholder="Comment...">
-                                                                            <div class="input-group-append">
-                                                                                <button class="btn btn-brand"
-                                                                                        type="submit">
-                                                                                    <i class="flaticon-paper-plane"></i>
-                                                                                </button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </form>
-                                                            </div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-secondary"
-                                                                    data-dismiss="modal">
-                                                                Close
                                                             </button>
                                                         </div>
                                                     </div>
+                                                </form>
+
+                                                <table class="table table-striped- table-bordered table-hover table-checkable"
+                                                       id="m_table_1">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>
+                                                            ID
+                                                        </th>
+                                                        <th>
+                                                            Report Name
+                                                        </th>
+                                                        <th>
+                                                            Upload By
+                                                        </th>
+                                                        <th>
+                                                            Upload Date
+                                                        </th>
+                                                        <th>
+                                                            more
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            01
+                                                        </td>
+                                                        <td>
+                                                            Report name1
+                                                        </td>
+                                                        <td>
+                                                            5/21/2017
+                                                        </td>
+                                                        <td>
+                                                            hamza
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                    <tfoot>
+                                                    <tr>
+                                                        <th>
+                                                            ID
+                                                        </th>
+                                                        <th>
+                                                            Report Name
+                                                        </th>
+                                                        <th>
+                                                            Upload Date
+                                                        </th>
+                                                        <th>
+                                                            Upload By
+                                                        </th>
+                                                        <th>
+                                                            More
+                                                        </th>
+                                                    </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!--begin:: File view Modal-->
+                                        <div class="modal fade" id="m_modal_6" tabindex="-1" role="dialog"
+                                             aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">
+                                                            More Details
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+																			<span aria-hidden="true">
+																				&times;
+																			</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="m-scrollable" data-scrollbar-shown="true"
+                                                             data-scrollable="true" data-height="300">
+                                                            <form>
+                                                                <div class="m-section">
+                                                                    <div class="m-section__content">
+                                                                        <table class="table m-table m-table--head-bg-brand file-details-table">
+                                                                            <thead>
+                                                                            <tr>
+                                                                                <th>
+                                                                                    File name
+                                                                                </th>
+                                                                                <th>
+                                                                                    Upload By
+                                                                                </th>
+                                                                                <th>
+                                                                                    Upload Date
+                                                                                </th>
+                                                                                <th>
+                                                                                    Show File
+                                                                                </th>
+                                                                            </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                            <tr class="gry-bg">
+                                                                                <td>
+                                                                                    6565-564
+                                                                                </td>
+                                                                                <td>
+                                                                                    Larry
+                                                                                </td>
+                                                                                <td>
+                                                                                    7/5/2018
+                                                                                </td>
+                                                                                <td>
+                                                                                    <a href="https://docs.google.com/spreadsheets/d/1uCNdAAbLM0x6r1V_UJTR-5GVhxlPDp-ydtl_mfPeJ-k/edit?usp=sharing"
+                                                                                       target="_blank"
+                                                                                       class="btn btn-outline-success m-btn m-btn--icon m-btn--icon-only">
+                                                                                        <i class="fa flaticon-folder"></i>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="comment-container m-widget3">
+                                                                    <div class="m-widget3__item">
+                                                                        <div class="m-widget3__header">
+                                                                            <div class="m-widget3__user-img">
+                                                                                <img class="m-widget3__img"
+                                                                                     src="assets/app/media/img/users/user1.jpg"
+                                                                                     alt="">
+                                                                            </div>
+                                                                            <div class="m-widget3__info">
+                                                                        <span class="m-widget3__username">
+                                                                            Melania Trump
+                                                                        </span>
+                                                                                <br>
+                                                                                <span class="m-widget3__time">
+                                                                        Engineer
+                                                                    </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="m-widget3__body">
+                                                                            <p class="m-widget3__text">
+                                                                                Lorem ipsum dolor sit
+                                                                                amet,consectetuer
+                                                                                edipiscing elit,sed diam nonummy
+                                                                                nibh
+                                                                                euismod
+                                                                                tinciduntut laoreet doloremagna
+                                                                                aliquam
+                                                                                erat
+                                                                                volutpat.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="m-widget3__item">
+                                                                        <div class="m-widget3__header">
+                                                                            <div class="m-widget3__user-img">
+                                                                                <img class="m-widget3__img"
+                                                                                     src="assets/app/media/img/users/user4.jpg"
+                                                                                     alt="">
+                                                                            </div>
+                                                                            <div class="m-widget3__info">
+                                                                    <span class="m-widget3__username">
+                                                                        Lebron King James
+                                                                    </span>
+                                                                                <br>
+                                                                                <span class="m-widget3__time">
+                                                                        1 day ago
+                                                                    </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="m-widget3__body">
+                                                                            <p class="m-widget3__text">
+                                                                                Lorem ipsum dolor sit
+                                                                                amet,consectetuer
+                                                                                edipiscing elit,sed diam nonummy
+                                                                                nibh
+                                                                                euismod
+                                                                                tinciduntut laoreet doloremagna
+                                                                                aliquam
+                                                                                erat
+                                                                                volutpat.Ut wisi enim ad minim
+                                                                                veniam,quis
+                                                                                nostrud exerci tation ullamcorper.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group m-form__group">
+                                                                    <div class="input-group mt-4">
+                                                                        <input type="text" class="form-control"
+                                                                               placeholder="Comment...">
+                                                                        <div class="input-group-append">
+                                                                            <button class="btn btn-brand"
+                                                                                    type="submit">
+                                                                                <i class="flaticon-paper-plane"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">
+                                                            Close
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <!--End::File upload Modal-->
                                         </div>
+                                        <!--End::File upload Modal-->
+
                                     </div>
                                     <!--  End Files Tap  -->
                                     <!--  Start  Project Sections Tap  -->
@@ -4466,9 +4468,9 @@
     <!--end::Employee group Modal-->
 
     <!--begin:: File upload Modal-->
-    <div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog"
+    <div class="modal fade p-0" id="m_modal_5" tabindex="-1" role="dialog"
          aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">

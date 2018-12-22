@@ -39,7 +39,7 @@
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
                         <h3 class="m-subheader__title ">
-                            Notifications
+                            Profile
                         </h3>
                     </div>
                 </div>
@@ -57,13 +57,14 @@
                                             <i class="la la-gear"></i>
                                         </span>
                                             <h3 class="m-portlet__head-text">
-                                                Notifications sent
+                                                Profile Details
                                             </h3>
                                         </div>
 
                                     </div>
                                 </div>
                                 <div class="m-portlet__body">
+                                    <form action="#">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="edit-profile-photo">
@@ -84,29 +85,17 @@
                                                         <label for="project-owner">
                                                             Name:
                                                         </label>
-                                                        <input type="text" class="form-control m-input" id="project-owner" placeholder="Name">
+                                                        <input type="text" class="form-control m-input"
+                                                               id="project-owner" placeholder="Name">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
-                                                    <div class="form-group1 m-form__group mb-3">
-                                                        <label for="Job-title">
-                                                            Job title
+                                                    <div class="form-group m-form__group">
+                                                        <label for="Jop-Title">
+                                                            Jop Title:
                                                         </label>
-                                                        <div></div>
-                                                        <select id="Job-title" class="custom-select form-control">
-                                                            <option selected="">
-                                                                Open this select menu
-                                                            </option>
-                                                            <option value="1">
-                                                                One
-                                                            </option>
-                                                            <option value="2">
-                                                                Two
-                                                            </option>
-                                                            <option value="3">
-                                                                Three
-                                                            </option>
-                                                        </select>
+                                                        <input type="text" class="form-control m-input"
+                                                               id="Jop-Title" placeholder="Jop Title">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
@@ -114,7 +103,8 @@
                                                         <label for="Functional-number">
                                                             Functional number:
                                                         </label>
-                                                        <input type="text" class="form-control m-input" id="Functional-number" placeholder="Functional number">
+                                                        <input type="text" class="form-control m-input"
+                                                               id="Functional-number" placeholder="Functional number">
                                                     </div>
                                                 </div>
                                             </div>
@@ -128,7 +118,8 @@
                                                 <label for="p-email">
                                                     Email:
                                                 </label>
-                                                <input type="email" class="form-control m-input" id="p-email" placeholder="Email">
+                                                <input type="email" class="form-control m-input" id="p-email"
+                                                       placeholder="Email">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -136,10 +127,19 @@
                                                 <label for="p-number">
                                                     Phone number:
                                                 </label>
-                                                <input type="text" class="form-control m-input" id="p-number" placeholder="Phone number">
+                                                <input type="text" class="form-control m-input" id="p-number"
+                                                       placeholder="Phone number">
                                             </div>
                                         </div>
                                     </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <button type="submit" class="btn m-btn--pill m-btn--air btn-outline-success">
+                                                    Submit
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
 
                             </div>
@@ -173,10 +173,10 @@ include "quick_sidebar.php"
 include "javascript.php"
 ?>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
 
 
-        var readURL = function(input=['file']) {
+        var readURL = function (input = ['file']) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
 
@@ -189,7 +189,7 @@ include "javascript.php"
         };
 
 
-        $(".up1").on('change', function(){
+        $(".up1").on('change', function () {
             readURL(this);
         });
 
